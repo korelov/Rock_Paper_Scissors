@@ -21,7 +21,7 @@ public class Player {
         this.score = score;
     }
 
-    public String turn(){
+    public String turn() {
         return Game.scanner.nextLine();
-    };
+    }
 }

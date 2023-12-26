@@ -5,8 +5,8 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Score {
-    private final String path = "C:\\Users\\korel\\IdeaProjects\\Rock-Paper-Scissors (Java)" +
-            "\\Rock-Paper-Scissors (Java)\\task\\src\\rockpaperscissors\\rating.txt";
+    private final String path = "C:\\Users\\korel\\IdeaProjects\\Rock-Paper-Scissors (Java)"
+            + "\\Rock-Paper-Scissors (Java)\\task\\src\\rockpaperscissors\\rating.txt";
     File file = new File(path);
 
     public void readRating(Player player) {
